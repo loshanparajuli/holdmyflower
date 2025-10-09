@@ -1,5 +1,6 @@
 import React from 'react'
 import { OurProcess } from './OurProcess'
+import CombinedFeaturedSection from './combined-featured-section'
 
 const LandingRight = () => {
   return (
@@ -13,6 +14,7 @@ const LandingRight = () => {
         <div className=' bg-gray-900'> 
           <OurProcess />
          </div>
+         <CombinedFeaturedSection />
       </div>
     
   )
