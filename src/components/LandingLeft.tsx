@@ -3,7 +3,7 @@ import React from 'react'
 
 const LandingLeft = () => {
   return (
-       <div className='text-white lg:px-10 p-[24px] lg:p-0 lg:pb-10 w-full lg:w-[500px] lg:flex-shrink-0 h-[50vh] lg:h-full flex items-start justify-center sm:items-center lg:items-end'>
+       <div className='text-white lg:px-10 p-[24px] lg:p-0 lg:pb-10 w-full lg:w-[500px] lg:flex-shrink-0 h-[60h] lg:h-full flex items-start justify-center sm:items-center lg:items-end'>
         <div className='flex flex-col items-center lg:items-start justify-start gap-4 lg:gap-6'>
           <div className="flex flex-col sm:flex-row sm:gap-2 lg:gap-0 md:flex-col">
             <h1 className='text-[34px] md:text-[64px] lg:text-[64px] font-extrabold whitespace-nowrap leading-9 md:leading-16 lg:leading-16 text-center sm:text-left md:text-center lg:text-left tracking-tighter'>hi. this is {" "} </h1>
