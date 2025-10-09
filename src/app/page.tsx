@@ -1,7 +1,7 @@
 import LandingLeft from '@/components/LandingLeft'
 import LandingRight from '@/components/LandingRight'
-import { OurProcess } from '@/components/OurProcess'
 import React from 'react'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -9,7 +9,7 @@ const page = () => {
     <div className='w-full relative h-[100dvh]'>
         {/* icon part*/}
         <div className="fixed top-0 left-0 z-30 p-4">
-          <img src="/flowerboom.svg" alt="FlowerBoom Logo" width="44" height="44" />
+          <Image src="/flowerboom.svg" alt="FlowerBoom Logo" width={44} height={44} />
         </div>
 
         {/* main content */}

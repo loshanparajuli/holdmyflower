@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { Activity, ArrowRight, Files, Flower, GalleryVerticalEnd, MapPin } from 'lucide-react'
 import DottedMap from 'dotted-map'
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid } from 'recharts'
@@ -94,7 +93,7 @@ export default function CombinedFeaturedSection() {
 }
 
 // ----------------- Feature Card Component -------------------
-function FeatureCard({ icon, image, title, subtitle, description }: { icon: React.ReactNode, image: string, title: string, subtitle: string, description: string }) {
+function FeatureCard({ icon, title, subtitle, description }: { icon: React.ReactNode, image?: string, title: string, subtitle: string, description: string }) {
   return (
     <div className="relative flex flex-col gap-3 p-4 border border-gray-200 dark:border-gray-800 bg-background transition">
       <div className="flex items-center gap-4">
@@ -327,7 +326,7 @@ ChartContainer.displayName = "Chart"
 
 const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
   const colorConfig = Object.entries(config).filter(
-    ([_, config]) => config.theme || config.color,
+    ([, itemConfig]) => itemConfig.theme || itemConfig.color,
   )
 
   if (!colorConfig.length) {
@@ -358,17 +357,24 @@ ${colorConfig
   )
 }
 
-const ChartTooltip = RechartsPrimitive.Tooltip as React.FC<RechartsPrimitive.TooltipProps<any, any>>
+const ChartTooltip = RechartsPrimitive.Tooltip as React.FC<RechartsPrimitive.TooltipProps<number | string, string>>
 
 const ChartTooltipContent = React.forwardRef<
   HTMLDivElement,
   {
     active?: boolean
-    payload?: Array<any>
+    payload?: Array<{
+      dataKey?: string
+      name?: string
+      value?: number | string
+      color?: string
+      payload?: Record<string, unknown>
+      fill?: string
+    }>
     label?: React.ReactNode
-    labelFormatter?: (label: any, payload: Array<any>) => React.ReactNode
+    labelFormatter?: (label: unknown, payload: Array<unknown>) => React.ReactNode
     labelClassName?: string
-    formatter?: (value: any, name: any, item: any, index: number, payload: any) => React.ReactNode
+    formatter?: (value: unknown, name: unknown, item: unknown, index: number, payload: unknown) => React.ReactNode
     color?: string
     hideLabel?: boolean
     hideIndicator?: boolean
@@ -452,7 +458,7 @@ const ChartTooltipContent = React.forwardRef<
           {payload.map((item, index) => {
             const key = `${nameKey || item.name || item.dataKey || "value"}`
             const itemConfig = getPayloadConfigFromPayload(config, item, key)
-            const indicatorColor = color || item.payload.fill || item.color
+            const indicatorColor = color || item.payload?.fill || item.color
 
             return (
               <div
@@ -525,7 +531,11 @@ const ChartLegend = RechartsPrimitive.Legend as unknown as React.FC<RechartsPrim
 const ChartLegendContent = React.forwardRef<
   HTMLDivElement,
   React.ComponentProps<"div"> & {
-    payload?: Array<any>
+    payload?: Array<{
+      value?: string
+      dataKey?: string
+      color?: string
+    }>
     verticalAlign?: 'top' | 'middle' | 'bottom'
     hideIcon?: boolean
     nameKey?: string
