@@ -1,6 +1,7 @@
 import React from 'react'
 import { OurProcess } from './OurProcess'
 import CombinedFeaturedSection from './combined-featured-section'
+import { StaggerTestimonials } from './stagger-testimonials'
 
 const LandingRight = () => {
   return (
@@ -11,10 +12,11 @@ const LandingRight = () => {
         </div>
         
         {/* Add more content here to test scrolling */}
-        <div className=' bg-gray-900'> 
           <OurProcess />
-         </div>
+          {/* combined featured section */}
          <CombinedFeaturedSection />
+         {/* testimonials */}
+         <StaggerTestimonials />
       </div>
     
   )
