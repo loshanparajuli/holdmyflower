@@ -1,6 +1,6 @@
 'use client'
 
-import { Activity, ArrowRight, Files, Flower, GalleryVerticalEnd, MapPin, Section } from 'lucide-react'
+import { Activity, ArrowRight, Files, Flower, GalleryVerticalEnd, MapPin } from 'lucide-react'
 import DottedMap from 'dotted-map'
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid } from 'recharts'
 import { Card } from '@/components/ui/card'
@@ -19,7 +19,7 @@ export default function CombinedFeaturedSection() {
   }
 
   return (
-    <section className="py-24 bg-background">
+    <section className=" bg-background">
       <SectionTitle title="Featured Tools & Analytics" description="Explore our featured tools and analytics that empower your projects with real-time insights and seamless integration." />
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 md:grid-rows-2">
 
@@ -45,7 +45,7 @@ export default function CombinedFeaturedSection() {
         {/* ✅ 2. FEATURED CASE STUDY BLOCK - Top Right */}
         <div className="flex flex-col justify-between gap-4 p-6 rounded-none border border-gray-200 dark:border-gray-800 bg-card">
           <div>
-            <span className="text-xs flex items-center gap-2 text-sm text-gray-500">
+            <span className="flex items-center gap-2 text-sm text-gray-500">
               <GalleryVerticalEnd className="w-4 h-4" /> {featuredCasestudy.tags}
             </span>
             <h3 className="text-xl font-normal text-gray-900 dark:text-white">
@@ -100,7 +100,7 @@ function FeatureCard({ icon, title, subtitle, description }: { icon: React.React
     <div className="relative flex flex-col gap-3 p-4 border border-gray-200 dark:border-gray-800 bg-background transition">
       <div className="flex items-center gap-4">
         <div>
-          <span className="text-xs flex items-center gap-2 text-sm text-gray-500 mb-4">
+          <span className="flex items-center gap-2 text-sm text-gray-500 mb-4">
             {icon}
             {title}
           </span>

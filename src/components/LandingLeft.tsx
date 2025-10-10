@@ -1,3 +1,4 @@
+import Link from "next/link"
 
   const LandingLeft = () => {
 
@@ -20,7 +21,7 @@
             </div>
             <p className='hidden sm:block text-md font-medium text-[14px] sm:text-[16px] lg:text-[18px] leading-5 lg:leading-6 text-center md:text-left text-[#9E9E9E]'>we are the creative agency behind the most popular internet content that gets screened watched by thousands.</p>
             <div className='w-full flex flex-row items-center justify-center lg:justify-start gap-2.5 md:gap-4 text-[16px] lg:text-[20px]'>
-              <button className='px-[24px] py-[12px] lg:py-[10px] w-full bg-white text-black font-bold cursor-pointer whitespace-nowrap'>case study</button>
+              <Link href={'/casestudy'} className='px-[24px] py-[12px] lg:py-[10px] w-full bg-white text-black font-bold cursor-pointer whitespace-nowrap'>case study</Link>
               <button className='px-[24px] py-[12px] lg:py-[10px] border border-gray-500/40 w-full text-white font-bold hover:bg-white/10 transition-colors duration-300 cursor-pointer'>book a call</button>
             </div> 
           </div>
