@@ -1,12 +1,13 @@
 'use client'
 
-import { Activity, ArrowRight, Files, Flower, GalleryVerticalEnd, MapPin } from 'lucide-react'
+import { Activity, ArrowRight, Files, Flower, GalleryVerticalEnd, MapPin, Section } from 'lucide-react'
 import DottedMap from 'dotted-map'
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid } from 'recharts'
 import { Card } from '@/components/ui/card'
 import * as React from "react"
 import * as RechartsPrimitive from "recharts"
 import { cn } from "@/lib/utils"
+import SectionTitle from './SectionTitle'
 
 export default function CombinedFeaturedSection() {
   const featuredCasestudy = {
@@ -19,6 +20,7 @@ export default function CombinedFeaturedSection() {
 
   return (
     <section className="py-24 bg-background">
+      <SectionTitle title="Featured Tools & Analytics" description="Explore our featured tools and analytics that empower your projects with real-time insights and seamless integration." />
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 md:grid-rows-2">
 
         {/* 1. MAP - Top Left */}
