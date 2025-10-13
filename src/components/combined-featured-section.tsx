@@ -7,36 +7,34 @@ import { Card } from '@/components/ui/card'
 import * as React from "react"
 import * as RechartsPrimitive from "recharts"
 import { cn } from "@/lib/utils"
-import SectionTitle from './SectionTitle'
 
 export default function CombinedFeaturedSection() {
   const featuredCasestudy = {
     logo: '/ruixen_dark.png',
     company: 'Ruixen',
-    tags: 'Enterprise',
-    title: 'How we scaled to 1M+ users',
-    subtitle: 'without a single second of downtime, using smart architecture and real-time monitoring',
+    tags: 'Top #1 talent of the country',
+    title: 'Our team works async.',
+    subtitle: 'This gives everyone time to think, create, and bring their best ideas. But when it’s time to jam, we’re just a message away',
   }
 
   return (
-    <section className=" bg-background">
-      <SectionTitle title="Featured Tools & Analytics" description="Explore our featured tools and analytics that empower your projects with real-time insights and seamless integration." />
+    <section className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 md:grid-rows-2">
 
         {/* 1. MAP - Top Left */}
         <div className="relative rounded-none overflow-hidden bg-muted border border-gray-200 dark:border-gray-800 p-4">
           <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
             <MapPin className="w-4 h-4" />
-            Ruixen Analytics
+            fromEverest⛰
           </div>
           <h3 className="text-xl font-normal text-gray-900 dark:text-white">
-            Visualize user activity across regions.{" "}
-            <span className="text-gray-500 dark:text-gray-400">Track, analyze, and optimize geographically.</span>
+            We Work Across Time Zones{" "}
+            <span className="text-gray-500 dark:text-gray-400">Whether it’s morning in NYC or midnight in KTM, our workflow doesn’t stop.</span>
           </h3>
 
           <div className="relative mt-4">
             <div className="absolute top-16 left-1/2 -translate-x-1/2 z-10 px-3 py-1 bg-white dark:bg-black text-black dark:text-white rounded-md text-xs font-medium shadow flex items-center gap-2">
-              🌍 Last connection from US
+              🌍 Last connection from Delaware DE
             </div>
             <Map />
           </div>
@@ -45,7 +43,7 @@ export default function CombinedFeaturedSection() {
         {/* ✅ 2. FEATURED CASE STUDY BLOCK - Top Right */}
         <div className="flex flex-col justify-between gap-4 p-6 rounded-none border border-gray-200 dark:border-gray-800 bg-card">
           <div>
-            <span className="flex items-center gap-2 text-sm text-gray-500">
+            <span className="text-xs flex items-center gap-2 text-sm text-gray-500">
               <GalleryVerticalEnd className="w-4 h-4" /> {featuredCasestudy.tags}
             </span>
             <h3 className="text-xl font-normal text-gray-900 dark:text-white">
@@ -63,11 +61,11 @@ export default function CombinedFeaturedSection() {
         <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-muted p-6 space-y-4">
           <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
             <Activity className="w-4 h-4" />
-            Ruixen Analytics
+            Storytelling with
           </div>
           <h3 className="text-xl font-normal text-gray-900 dark:text-white">
-            Real-time performance tracking for Ruixen.{" "}
-            <span className="text-gray-500 dark:text-gray-400">Optimize your UI decisions instantly.</span>
+            Bi-Monthly Audit for Stats. and Performance{" "}
+            <span className="text-gray-500 dark:text-gray-400">data never lies. We help you visualise the data and see whats working and what's not.</span>
           </h3>
           <MonitoringChart />
         </div>
@@ -77,16 +75,16 @@ export default function CombinedFeaturedSection() {
           <FeatureCard
             icon={<Files className="w-4 h-4" />}
             image="/1.png"
-            title="Ready to use blocks"
-            subtitle="Copy & Paste"
-            description="Plug-n-play UI blocks you can drop right into any project."
+            title="Saving 100hours weekly"
+            subtitle="System that does nothing but saves your time"
+            description="One simple message and everything gets in motion, while you focus we grind freeing you as much as 10x"
           />
           <FeatureCard
             icon={<Flower className="w-4 h-4" />}
             image="/2.png"
             title="Customize with ease"
-            subtitle="Easy to Use"
-            description="Design your layout exactly the way you want with full flexibility."
+            subtitle="Under Single Roof"
+            description="From research to the execution, we gothcha. No shuffling"
           />
         </div>
       </div>
@@ -100,7 +98,7 @@ function FeatureCard({ icon, title, subtitle, description }: { icon: React.React
     <div className="relative flex flex-col gap-3 p-4 border border-gray-200 dark:border-gray-800 bg-background transition">
       <div className="flex items-center gap-4">
         <div>
-          <span className="flex items-center gap-2 text-sm text-gray-500 mb-4">
+          <span className="text-xs flex items-center gap-2 text-sm text-gray-500 mb-4">
             {icon}
             {title}
           </span>
@@ -193,40 +191,34 @@ interface Message {
 
 const messages: Message[] = [
     {
-      title: "Ruixen Design",
+      title: "Heigenberg",
       time: "1m ago",
-      content: "New components added to your team workspace.",
+      content: "wondering if I could have the final render link again. I lost that",
       color: "from-pink-400 to-indigo-500",
     },
     {
-      title: "Pro User Feedback",
-      time: "3m ago",
-      content: "You’ve received 8 new user reviews this week.",
+      title: "flowerBOT",
+      time: "1m ago",
+      content: "Sure, here it is: https://www.loom.com/share/...",
       color: "from-orange-500 to-pink-500",
     },
     {
-      title: "Billing Alert",
+      title: "losh",
       time: "6m ago",
-      content: "Your subscription was successfully renewed.",
+      content: "on the way sirr, i got chickenpox",
       color: "from-yellow-400 to-red-400",
     },
     {
-      title: "Integration Hub",
+      title: "Editor",
       time: "10m ago",
-      content: "Figma plugin connected to your dashboard.",
+      content: "sir, where is my money money money?",
       color: "from-sky-400 to-blue-700",
     },
     {
-      title: "Product Analytics",
-      time: "12m ago",
-      content: "Dashboard insights updated with latest metrics.",
-      color: "from-orange-300 to-fuchsia-500",
-    },
-    {
-      title: "Weekly Recap",
+      title: "flowerBOT-notify",
       time: "15m ago",
-      content: "Here’s what your team accomplished this week.",
-      color: "from-green-400 to-blue-500",
+      content: "Today meeting with Rabbit YC S25, Amanda",
+      color: "from-orange-400 to-pink-500",
     },
   ];
 

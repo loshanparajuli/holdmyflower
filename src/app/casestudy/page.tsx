@@ -1,9 +1,12 @@
-import React from 'react'
-
-const page = () => {
+export default function PageF() {
   return (
-    <div>This is a case study</div>
-  )
+    <div className="w-full h-screen overflow-hidden">
+      <iframe
+        src="https://www.canva.com/design/DAGhE_6CNoo/k4dP2TX44EF4S5XAE_uKOw/view?embed"
+        className="w-full h-full border-0"
+        allowFullScreen
+        title="Case Studey"
+      />
+    </div>
+  );
 }
-
-export default page
