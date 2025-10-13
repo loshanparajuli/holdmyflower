@@ -8,10 +8,10 @@ export function OurProcess() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            help me understand the "why the fuck are we even doing this in the first place" 
+            {"help me understand the \"why the fuck are we even doing this in the first place\" "}
           </p>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            then, we'll closely understand the problem and sense the severity
+            {"then, we'll closely understand the problem and sense the severity"}
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -38,7 +38,7 @@ export function OurProcess() {
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            we'll start problem solving and execution right away to get the momentum going <br />
+            {"we'll start problem solving and execution right away to get the momentum going"} <br />
             <strong>i then create magic with my bois in the kitchen. We cook until we are cooked </strong>
           </p>
          

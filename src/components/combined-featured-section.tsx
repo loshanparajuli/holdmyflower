@@ -13,8 +13,8 @@ export default function CombinedFeaturedSection() {
     logo: '/ruixen_dark.png',
     company: 'Ruixen',
     tags: 'Top #1 talent of the country',
-    title: 'Our team works async.',
-    subtitle: 'This gives everyone time to think, create, and bring their best ideas. But when it’s time to jam, we’re just a message away',
+     title: 'Our team works async.',
+     subtitle: 'This gives everyone time to think, create, and bring their best ideas. But when it\'s time to jam, we\'re just a message away',
   }
 
   return (
@@ -29,7 +29,7 @@ export default function CombinedFeaturedSection() {
           </div>
           <h3 className="text-xl font-normal text-gray-900 dark:text-white">
             We Work Across Time Zones{" "}
-            <span className="text-gray-500 dark:text-gray-400">Whether it’s morning in NYC or midnight in KTM, our workflow doesn’t stop.</span>
+          <span className="text-gray-500 dark:text-gray-400">{"Whether it's morning in NYC or midnight in KTM, our workflow doesn't stop."}</span>
           </h3>
 
           <div className="relative mt-4">
@@ -65,7 +65,7 @@ export default function CombinedFeaturedSection() {
           </div>
           <h3 className="text-xl font-normal text-gray-900 dark:text-white">
             Bi-Monthly Audit for Stats. and Performance{" "}
-            <span className="text-gray-500 dark:text-gray-400">data never lies. We help you visualise the data and see whats working and what's not.</span>
+          <span className="text-gray-500 dark:text-gray-400">{"data never lies. We help you visualise the data and see what's working and what's not."}</span>
           </h3>
           <MonitoringChart />
         </div>
