@@ -21,5 +21,3 @@ const SectionTitle = ({ title, description }: SectionTitleProps) => {
 
 export default SectionTitle
 
-// &apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-//           a timeline of my journey.

@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils"
 export default function CombinedFeaturedSection() {
   const featuredCasestudy = {
     logo: '/ruixen_dark.png',
-    company: 'Ruixen',
+    company: 'flowerBoom',
     tags: 'Top #1 talent of the country',
      title: 'Our team works async.',
      subtitle: 'This gives everyone time to think, create, and bring their best ideas. But when it\'s time to jam, we\'re just a message away',
@@ -34,7 +34,7 @@ export default function CombinedFeaturedSection() {
 
           <div className="relative mt-4">
             <div className="absolute top-16 left-1/2 -translate-x-1/2 z-10 px-3 py-1 bg-white dark:bg-black text-black dark:text-white rounded-md text-xs font-medium shadow flex items-center gap-2">
-              🌍 Last connection from Delaware DE
+              🌍 Last service delievered to Delaware, US
             </div>
             <Map />
           </div>
@@ -61,11 +61,11 @@ export default function CombinedFeaturedSection() {
         <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-muted p-6 space-y-4">
           <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
             <Activity className="w-4 h-4" />
-            Storytelling with
+            Storytelling with Statistics
           </div>
           <h3 className="text-xl font-normal text-gray-900 dark:text-white">
-            Bi-Monthly Audit for Stats. and Performance{" "}
-          <span className="text-gray-500 dark:text-gray-400">{"data never lies. We help you visualise the data and see what's working and what's not."}</span>
+            Bi-Monthly Audit for Stats and Performance.{" "}
+          <span className="text-gray-500 dark:text-gray-400">{"Data never lies. We help you visualise the data and see what's working and what's not."}</span>
           </h3>
           <MonitoringChart />
         </div>
@@ -75,14 +75,14 @@ export default function CombinedFeaturedSection() {
           <FeatureCard
             icon={<Files className="w-4 h-4" />}
             image="/1.png"
-            title="Saving 100hours weekly"
+            title="Saving 100 hours weekly"
             subtitle="System that does nothing but saves your time"
             description="One simple message and everything gets in motion, while you focus we grind freeing you as much as 10x"
           />
           <FeatureCard
             icon={<Flower className="w-4 h-4" />}
             image="/2.png"
-            title="Customize with ease"
+            title="Time is crazy. We save yours"
             subtitle="Under Single Roof"
             description="From research to the execution, we gothcha. No shuffling"
           />
@@ -136,22 +136,22 @@ const Map = () => (
 
 // ----------------- Chart -------------------
 const chartData = [
-  { month: 'May', desktop: 56, mobile: 224 },
-  { month: 'June', desktop: 90, mobile: 300 },
-  { month: 'July', desktop: 126, mobile: 252 },
-  { month: 'Aug', desktop: 205, mobile: 410 },
-  { month: 'Sep', desktop: 200, mobile: 126 },
-  { month: 'Oct', desktop: 400, mobile: 800 },
+  { month: 'May', desktop: 156, mobile: 54 },
+  { month: 'June', desktop: 200, mobile: 153 },
+  { month: 'July', desktop: 126, mobile: 212 },
+  { month: 'Aug', desktop: 143, mobile: 310 },
+  { month: 'Sep', desktop: 300, mobile: 422 },
+  { month: 'Oct', desktop: 420, mobile: 810 },
 ]
 
 const chartConfig = {
   desktop: {
-    label: 'Ruixen Dashboard (Desktop)',
+    label: 'Before a/b Test',
     color: '#2563eb', // Primary Blue
   },
   mobile: {
-    label: 'Ruixen App (Mobile)',
-    color: '#60a5fa', // Lighter Blue
+    label: 'After a/b and AI optimization',
+    color: 'orange', // Lighter Blue
   },
 } satisfies ChartConfig
 
