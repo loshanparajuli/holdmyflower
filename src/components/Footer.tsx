@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Right - Social Icons */}
           <div className="flex items-center gap-4">
             <a
-              href="mailto:contact@flowerboom.com"
+              href="mailto:reach@insideflower.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"
@@ -22,7 +22,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/company/flowerboom"
+              href="https://www.linkedin.com/in/loshanparajuli/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100 transition-colors"

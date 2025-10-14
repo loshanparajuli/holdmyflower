@@ -10,7 +10,7 @@ const testimonials = [
   {
     tempId: 0,
     testimonial: "0 agency vibe. These boys are on a sales call breaking down the complex automation and data, Next they are making fun of themselves and making the guest (me) comfortable with sus smiles.",
-    by: "Sachin, CEO at KangarooTech",
+    by: "Andrew Huang, CEO at KangarooTech",
     imgSrc: "https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1287"
   },
   {
@@ -34,7 +34,7 @@ const testimonials = [
   {
     tempId: 4,
     testimonial: "i trust them with every cell of my body",
-    by: "Eva from BTI, Data Science",
+    by: "Shubhechhuk from BTI, Data Science",
     imgSrc: "https://images.unsplash.com/photo-1712868794038-c4da5a05f728?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1287"
   },
   {

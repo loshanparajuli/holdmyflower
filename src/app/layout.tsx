@@ -12,6 +12,9 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "flowerBOOM",
   description: "The best content powerengine in the world",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
