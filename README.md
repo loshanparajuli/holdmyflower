@@ -1,6 +1,6 @@
 we built this overnight. All hail to @codewithprajwol
 
-Still the work is in pressure
+Still the work is in progress
 
 Todo: Make AI Credibility more saturation
 - Work on Pricing Tag
