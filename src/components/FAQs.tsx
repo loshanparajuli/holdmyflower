@@ -38,7 +38,7 @@ const defaultFaqs: FaqItem[] = [
   {
     question: "do you offer free consultation?",
     answer:
-      "Sometimes. I’d rather enlighten instead of doomscroll. Check my calendar here — weekends, 9–12 AM EST.",
+      "Sometimes. I'd rather enlighten instead of doomscroll. <a href=\"https://cal.com/workloshan/15min\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:#2563eb;text-decoration:underline;\">Check my calendar</a> on weekends, 9–12 AM EST.",
   },
 ];
 
