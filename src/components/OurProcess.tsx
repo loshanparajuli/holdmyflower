@@ -73,7 +73,7 @@ few revisions here and there<br/>
           
           <div className="flex justify-start">
             <img
-              src="/give.gif"
+              src="/give.mp4"
               alt="deliverables"
               width={800}
               height={600}

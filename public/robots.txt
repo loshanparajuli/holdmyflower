@@ -1,0 +1,32 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# AI Crawlers - Allow for GEO optimization
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Disallow build and api routes
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap location
+Sitemap: https://flowerboom.com/sitemap.xml
