@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Free tools for content creators: Download high-res YouTube thumbnails, preview thumbnails among competitors, and optimize your content strategy.',
   keywords: ['YouTube thumbnail downloader', 'thumbnail preview', 'content creator tools', 'YouTube tools', 'thumbnail comparison', 'free video tools'],
   openGraph: {
-    title: 'Free Tools for Content Creators - FlowerBoom',
+    title: 'Free Tools for Content Creators - Hold My Flower',
     description: 'Download YouTube thumbnails, preview and compare designs, optimize your content.',
   },
 }

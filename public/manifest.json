@@ -1,6 +1,6 @@
 {
-  "name": "FlowerBoom - Content Powerhouse",
-  "short_name": "FlowerBoom",
+  "name": "Hold My Flowers - Content Powerhouse",
+  "short_name": "Hold My Flowers",
   "description": "Transform your content into viral shorts for social media",
   "start_url": "/",
   "display": "standalone",
@@ -8,7 +8,7 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/flowerboom.svg",
+      "src": "/logo.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"

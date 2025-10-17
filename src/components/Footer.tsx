@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-row items-center justify-between py-6 gap-4">
           {/* Left - Copyright */}
           <div className="text-sm text-neutral-600 dark:text-neutral-400">
-            © 2025 FlowerBoom.
+            © 2025 Hold My Flower.
           </div>
 
           {/* Right - Social Icons */}

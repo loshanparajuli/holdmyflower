@@ -10,12 +10,12 @@ const manrope = Manrope({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://flowerboom.com'), // Replace with your actual domain
+  metadataBase: new URL('https://holdmyflower.com'),
   title: {
-    default: "FlowerBoom - Content Powerhouse | Video Editing & Content Repurposing",
-    template: "%s | FlowerBoom"
+    default: "Hold My Flower - Content Powerhouse | Video Editing & Content Repurposing",
+    template: "%s | Hold My Flower"
   },
-  description: "FlowerBoom transforms your content into viral shorts for TikTok, Instagram, LinkedIn & X. Expert video editing with AI-powered hooks, retention optimization, and content repurposing. We sell accountability, authority, and execution.",
+  description: "Hold My Flower transforms your content into viral shorts for TikTok, Instagram, LinkedIn & X. Expert video editing with AI-powered hooks, retention optimization, and content repurposing. We sell accountability, authority, and execution.",
   keywords: [
     "video editing",
     "content repurposing",
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     "video hooks",
     "retention editing"
   ],
-  authors: [{ name: "FlowerBoom Team" }],
-  creator: "FlowerBoom",
-  publisher: "FlowerBoom",
+  authors: [{ name: "Hold My Flower Team" }],
+  creator: "Hold My Flower",
+  publisher: "Hold My Flower",
   formatDetection: {
     email: false,
     address: false,
@@ -44,25 +44,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://flowerboom.com",
-    siteName: "FlowerBoom",
-    title: "FlowerBoom - Content Powerhouse | Video Editing & Content Repurposing",
-    description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn & X. Expert video editing with AI-powered optimization.",
+    url: "https://holdmyflower.com",
+    siteName: "Hold My Flower",
+    title: "Hold My Flower - Content Powerhouse",
+    description: "We sell accountability, authority, and execution. Professional video editing and content repurposing that delivers results.",
     images: [
       {
         url: "/og-image.png", // Create this 1200x630px image
         width: 1200,
         height: 630,
-        alt: "FlowerBoom - Content Powerhouse",
+        alt: "Hold My Flower - Content Powerhouse",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "FlowerBoom - Content Powerhouse",
-    description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn & X.",
+    title: "Hold My Flower - Content Powerhouse",
+    description: "We sell accountability, authority, and execution. Professional video editing and content repurposing that delivers results.",
     images: ["/og-image.png"],
-    creator: "@flowerboom", // Replace with your Twitter handle
+    // Add your Twitter handle when ready
   },
   robots: {
     index: true,
@@ -91,7 +91,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/flowerboom.svg" type="image/svg+xml" />
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
         <meta name="theme-color" content="#000000" />
       </head>
       <body

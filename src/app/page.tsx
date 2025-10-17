@@ -25,7 +25,7 @@ const page = () => {
     <div className='w-full relative h-[100dvh]'>
         {/* icon part*/}
         <div className="fixed top-0 left-0 z-30 p-4 mix-blend-difference">
-          <Image src="/flowerboom.svg" alt="FlowerBoom Logo" width={44} height={44} style={{ mixBlendMode: 'difference' }} />
+          <Image src="/flowerboom.svg" alt="Hold My Flower Logo" width={44} height={44} style={{ mixBlendMode: 'difference' }} />
         </div>
 
         {/* main content */}

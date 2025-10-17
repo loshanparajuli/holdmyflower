@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils"
 export default function CombinedFeaturedSection() {
   const featuredCasestudy = {
     logo: '/ruixen_dark.png',
-    company: 'flowerBoom',
+    company: 'Hold My Flower',
     tags: 'Top #1 talent of the country',
      title: 'Our team works async.',
      subtitle: 'This gives everyone time to think, create, and bring their best ideas. But when it\'s time to jam, we\'re just a message away',

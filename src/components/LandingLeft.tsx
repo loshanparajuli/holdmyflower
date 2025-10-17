@@ -16,7 +16,7 @@ import Link from 'next/link';
           <div className='relative z-10 flex flex-col items-center lg:items-start justify-start gap-4 lg:gap-6'>
             <div className="flex flex-col sm:flex-row sm:gap-2 lg:gap-0 lg:flex-col">
               <h1 className='text-[34px]  lg:text-[64px] font-extrabold whitespace-nowrap leading-9  lg:leading-16 text-center sm:text-left md:text-center lg:text-left tracking-tighter'>hi. this is {" "} </h1>
-              <h1 className='text-[34px]  lg:text-[64px] font-extrabold leading-9  lg:leading-16 text-center sm:text-left tracking-tighter'>flowerBOOM.</h1>
+              <h1 className='text-[34px]  lg:text-[64px] font-extrabold leading-9  lg:leading-16 text-center sm:text-left tracking-tighter'>holdmyFlower.</h1>
             </div>
             <p className='hidden sm:block text-md font-medium text-[14px] sm:text-[16px] lg:text-[18px] leading-5 lg:leading-6 text-center md:text-left text-[#9E9E9E]'>we are the creative agency behind the most popular internet content that gets screened and watched by thousands.</p>
             <div className='w-full flex flex-row items-center justify-center lg:justify-start gap-2.5 md:gap-4 text-[16px] lg:text-[20px]'>

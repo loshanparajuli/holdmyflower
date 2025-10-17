@@ -1,16 +1,17 @@
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "FlowerBoom",
-  "url": "https://flowerboom.com",
-  "logo": "https://flowerboom.com/flowerboom.svg",
+  "name": "Hold My Flower",
+  "url": "https://holdmyflower.com",
+  "logo": "https://holdmyflower.com/logo.svg",
   "description": "Professional video editing and content repurposing agency specializing in short-form content for TikTok, Instagram, LinkedIn, and X.",
   "foundingDate": "2024",
-  "sameAs": [
-    "https://twitter.com/flowerboom",
-    "https://linkedin.com/company/flowerboom",
-    "https://instagram.com/flowerboom"
-  ],
+  // Add social media URLs when accounts are created:
+  // "sameAs": [
+  //   "https://twitter.com/yourusername",
+  //   "https://linkedin.com/company/yourcompany",
+  //   "https://instagram.com/yourusername"
+  // ],
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "Customer Service",
@@ -28,7 +29,7 @@ export const serviceSchema = {
   "serviceType": "Video Editing & Content Repurposing",
   "provider": {
     "@type": "Organization",
-    "name": "FlowerBoom"
+    "name": "Hold My Flower"
   },
   "description": "Expert video editing services that transform long-form content into engaging short-form videos optimized for social media platforms.",
   "areaServed": "Worldwide",
@@ -67,11 +68,11 @@ export const serviceSchema = {
 export const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "FlowerBoom - Content Powerhouse",
+  "name": "Hold My Flower - Content Powerhouse",
   "description": "Transform your content into viral shorts for TikTok, Instagram, LinkedIn & X.",
   "publisher": {
     "@type": "Organization",
-    "name": "FlowerBoom"
+    "name": "Hold My Flower"
   }
 }
 
