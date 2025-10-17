@@ -202,6 +202,12 @@ const messages: Message[] = [
       content: "Sure, here it is: https://www.loom.com/share/...",
       color: "from-orange-500 to-pink-500",
     },
+       {
+      title: "Shubhechhuk",
+      time: "1m ago",
+      content: "@losh, Kindly Share the Loom.",
+      color: "from-orange-500 to-blue-500",
+    },
     {
       title: "losh",
       time: "6m ago",
