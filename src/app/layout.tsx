@@ -12,7 +12,7 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL('https://holdmyflower.com'),
   title: {
-    default: "Hold My Flower - Content Powerhouse",
+    default: "holdmyFlower",
     template: "%s | Hold My Flower"
   },
   description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X. We build accountability, authority, and EXECUTION for your brand.",
