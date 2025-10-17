@@ -14,7 +14,7 @@ const getYouTubeId = (url: string) => {
     if (u.hostname === "youtu.be") {
       return u.pathname.slice(1) || null
     }
-  } catch (e) {
+  } catch {
     return null
   }
   return null
@@ -64,7 +64,7 @@ export default function Page() {
             break
           }
         }
-      } catch (e) {
+      } catch {
         // continue trying other sizes
       }
     }
@@ -92,7 +92,7 @@ export default function Page() {
       a.click()
       a.remove()
       URL.revokeObjectURL(url)
-    } catch (e) {
+    } catch {
       setError("Failed to download image")
     } finally {
       setLoading(false)

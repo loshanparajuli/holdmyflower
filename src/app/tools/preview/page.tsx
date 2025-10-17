@@ -15,7 +15,7 @@ type Video = {
 };
 
 // Function to generate related videos based on video title/topic
-const generateRelatedVideos = (_videoTitle: string, _channelName: string) => {
+const generateRelatedVideos = () => {
   // Real video IDs from diverse popular channels with reliable thumbnail URLs
   const allVideos = [
     // Veritasium
@@ -128,18 +128,18 @@ const generateRelatedVideos = (_videoTitle: string, _channelName: string) => {
 }
 
 export default function Page() {
-  const [_thumbnailFile, setThumbnailFile] = useState<File | null>(null)
+  const [, setThumbnailFile] = useState<File | null>(null)
   const [thumbnailPreview, setThumbnailPreview] = useState<string | null>(null)
   const [channelName, setChannelName] = useState("")
   const [videoTitle, setVideoTitle] = useState("")
   const [views, setViews] = useState("")
   const [uploadDate, setUploadDate] = useState("")
-  const [relatedVideos, setRelatedVideos] = useState(generateRelatedVideos("", ""))
+  const [relatedVideos, setRelatedVideos] = useState(generateRelatedVideos())
   const [showHomeFeed, setShowHomeFeed] = useState(false)
 
   useEffect(() => {
     // Update related videos when title changes
-    setRelatedVideos(generateRelatedVideos(videoTitle, channelName))
+    setRelatedVideos(generateRelatedVideos())
   }, [videoTitle, channelName])
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -192,7 +192,7 @@ export default function Page() {
                   {thumbnailPreview ? (
                     <img 
                       src={thumbnailPreview} 
-                      alt="Your thumbnail" 
+                      alt="Your thumbnail"
                       className="w-full h-full object-contain"
                     />
                   ) : (

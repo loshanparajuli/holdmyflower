@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Hold My Flower - Content Powerhouse",
     description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X.",
     images: ["/og-image.png"],
-    creator: "@holdmyflower",
+    // creator: "@yourtwitterhandle", // Add your Twitter handle here
   },
   robots: {
     index: true,
@@ -54,9 +54,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code", // Add your actual verification code
-  },
+  // verification: Domain verified via DNS, no manual verification needed
   alternates: {
     canonical: "https://holdmyflower.com",
   },

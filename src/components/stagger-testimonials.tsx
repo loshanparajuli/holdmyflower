@@ -94,6 +94,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           height: 2
         }}
       />
+      {/* Using img for external Unsplash URLs */}
       <img
         src={testimonial.imgSrc}
         alt={`${testimonial.by.split(',')[0]}`}

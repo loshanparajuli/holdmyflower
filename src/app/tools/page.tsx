@@ -4,7 +4,6 @@ import React, { useState } from "react"
 import LandingLeft from '@/components/LandingLeft'
 import Image from 'next/image'
 import Link from 'next/link'
-import Prism from '@/components/ui/prism'
 
 export default function ToolsPage() {
   const [hoveredTool, setHoveredTool] = useState<string | null>(null)
@@ -67,27 +66,10 @@ export default function ToolsPage() {
             <LandingLeft />
           </div>
 
-          {/* right - Tools listing with Prism background */}
-          <div className="flex-1 w-full overflow-y-auto relative">
-            {/* Prism Background */}
-            <div className="absolute inset-0 z-0">
-              <Prism 
-                height={3.5}
-                baseWidth={5.5}
-                animationType="rotate"
-                glow={1.2}
-                noise={0.3}
-                transparent={true}
-                scale={3.6}
-                hueShift={0.3}
-                colorFrequency={1}
-                bloom={1}
-                timeScale={0.5}
-              />
-            </div>
-
+          {/* right - Tools listing */}
+          <div className="flex-1 w-full overflow-y-auto relative bg-gradient-to-br from-gray-50 to-gray-100">
             {/* Content */}
-            <div className="relative z-10 flex items-center justify-center min-h-screen py-10 px-6">
+            <div className="relative flex items-center justify-center min-h-screen py-10 px-6">
               <div className="w-full max-w-[650px]">
                 
                 {/* Header */}
