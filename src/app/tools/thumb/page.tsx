@@ -3,6 +3,7 @@
 import React, { useState } from "react"
 import LandingLeft from '@/components/LandingLeft'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const getYouTubeId = (url: string) => {
   try {
@@ -103,9 +104,9 @@ export default function Page() {
     <main className="w-full bg-background text-foreground">
       <div className='w-full relative h-[100dvh]'>
         {/* small top-left logo like homepage */}
-        <div className="fixed top-0 left-0 z-30 p-4 mix-blend-difference">
+        <Link href="/" className="fixed top-0 left-0 z-30 p-4 mix-blend-difference cursor-pointer">
           <Image src="/flowerboom.svg" alt="FlowerBoom Logo" width={44} height={44} style={{ mixBlendMode: 'difference' }} />
-        </div>
+        </Link>
 
   <div className="flex flex-col-reverse lg:flex-row w-full h-full">
           {/* left - reuse LandingLeft with forced black background for premium look */}

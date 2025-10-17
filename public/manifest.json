@@ -1,7 +1,7 @@
 {
-  "name": "Hold My Flowers - Content Powerhouse",
-  "short_name": "Hold My Flowers",
-  "description": "Transform your content into viral shorts for social media",
+  "name": "holdmyFlower",
+  "short_name": "holdmyFlower",
+  "description": "We are the creative team behind the most popular internet content that gets screened and watched by millions.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",

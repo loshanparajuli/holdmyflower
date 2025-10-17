@@ -1,10 +1,10 @@
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Hold My Flower",
+  "name": "holdmyFlower",
   "url": "https://holdmyflower.com",
   "logo": "https://holdmyflower.com/flowerboom.svg",
-  "description": "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X. We build accountability, authority, and EXECUTION.",
+  "description": "We are the creative team behind the most popular internet content that gets screened and watched by millions.",
   "sameAs": [
     "https://twitter.com/holdmyflower",
     "https://linkedin.com/company/holdmyflower",
@@ -23,10 +23,10 @@ export const serviceSchema = {
   "name": "Content Creation & Video Editing",
   "provider": {
     "@type": "Organization",
-    "name": "Hold My Flower"
+    "name": "holdmyFlower"
   },
   "serviceType": "Video Production and Content Repurposing",
-  "description": "Professional content creation and video editing services for social media platforms including TikTok, Instagram, LinkedIn, and X.",
+  "description": "We are the creative team behind the most popular internet content that gets screened and watched by millions.",
   "areaServed": "Worldwide",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -47,8 +47,8 @@ export const serviceSchema = {
 export const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Hold My Flower - Content Powerhouse",
-  "description": "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X.",
+  "name": "holdmyFlower",
+  "description": "We are the creative team behind the most popular internet content that gets screened and watched by millions.",
   "url": "https://holdmyflower.com",
   "inLanguage": "en-US"
 }

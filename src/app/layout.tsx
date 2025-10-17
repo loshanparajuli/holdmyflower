@@ -13,33 +13,33 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://holdmyflower.com'),
   title: {
     default: "holdmyFlower",
-    template: "%s | Hold My Flower"
+    template: "%s | holdmyFlower"
   },
-  description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X. We build accountability, authority, and EXECUTION for your brand.",
+  description: "We are the creative team behind the most popular internet content that gets screened and watched by millions.",
   keywords: ["content creation", "video editing", "social media content", "viral shorts", "TikTok", "Instagram Reels", "content repurposing", "video production"],
-  authors: [{ name: "Hold My Flower" }],
-  creator: "Hold My Flower",
-  publisher: "Hold My Flower",
+  authors: [{ name: "holdmyFlower" }],
+  creator: "holdmyFlower",
+  publisher: "holdmyFlower",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://holdmyflower.com",
-    siteName: "Hold My Flower",
-    title: "Hold My Flower - Content Powerhouse",
-    description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X. We build accountability, authority, and EXECUTION.",
+    siteName: "holdmyFlower",
+    title: "holdmyFlower",
+    description: "We are the creative team behind the most popular internet content that gets screened and watched by millions.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Hold My Flower - Content Powerhouse",
+        alt: "holdmyFlower",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hold My Flower - Content Powerhouse",
-    description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X.",
+    title: "holdmyFlower",
+    description: "We are the creative team behind the most popular internet content that gets screened and watched by millions.",
     images: ["/og-image.png"],
     // creator: "@yourtwitterhandle", // Add your Twitter handle here
   },
