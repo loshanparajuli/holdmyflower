@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react"
 import LandingLeft from '@/components/LandingLeft'
 import Image from 'next/image'
-import Link from 'next/link'
 
 // Type for video object
 type Video = {
@@ -171,9 +170,9 @@ export default function Page() {
     <main className="w-full bg-background text-foreground">
       <div className='w-full relative'>
         {/* small top-left logo like homepage */}
-        <Link href="/" className="fixed top-0 left-0 z-30 p-4 mix-blend-difference cursor-pointer">
-          <Image src="/flowerboom.svg" alt="Hold My Flower Logo" width={44} height={44} style={{ mixBlendMode: 'difference' }} />
-        </Link>
+        <div className="fixed top-0 left-0 z-30 p-4 mix-blend-difference">
+          <Image src="/flowerboom.svg" alt="FlowerBoom Logo" width={44} height={44} style={{ mixBlendMode: 'difference' }} />
+        </div>
 
         <div className="flex flex-col-reverse lg:flex-row w-full min-h-[100dvh]">
           {/* left - reuse LandingLeft with forced black background for premium look - STICKY */}

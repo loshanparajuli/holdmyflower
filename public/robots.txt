@@ -2,27 +2,38 @@
 User-agent: *
 Allow: /
 
+# Block tools pages from indexing
+Disallow: /tools/
+Disallow: /tools
+
 # AI Crawlers - Allow for GEO optimization
 User-agent: GPTBot
 Allow: /
+Disallow: /tools/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /tools/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /tools/
 
 User-agent: anthropic-ai
 Allow: /
+Disallow: /tools/
 
 User-agent: Claude-Web
 Allow: /
+Disallow: /tools/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /tools/
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /tools/
 
 # Disallow build and api routes
 Disallow: /api/

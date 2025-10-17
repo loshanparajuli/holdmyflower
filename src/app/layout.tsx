@@ -12,45 +12,24 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL('https://holdmyflower.com'),
   title: {
-    default: "Hold My Flower - Content Powerhouse | Video Editing & Content Repurposing",
+    default: "Hold My Flower - Content Powerhouse",
     template: "%s | Hold My Flower"
   },
-  description: "Hold My Flower transforms your content into viral shorts for TikTok, Instagram, LinkedIn & X. Expert video editing with AI-powered hooks, retention optimization, and content repurposing. We sell accountability, authority, and execution.",
-  keywords: [
-    "video editing",
-    "content repurposing",
-    "TikTok content",
-    "Instagram Reels",
-    "LinkedIn video",
-    "viral shorts",
-    "content creation",
-    "video production",
-    "social media content",
-    "YouTube editing",
-    "content agency",
-    "short-form video",
-    "content optimization",
-    "video hooks",
-    "retention editing"
-  ],
-  authors: [{ name: "Hold My Flower Team" }],
+  description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X. We build accountability, authority, and EXECUTION for your brand.",
+  keywords: ["content creation", "video editing", "social media content", "viral shorts", "TikTok", "Instagram Reels", "content repurposing", "video production"],
+  authors: [{ name: "Hold My Flower" }],
   creator: "Hold My Flower",
   publisher: "Hold My Flower",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://holdmyflower.com",
     siteName: "Hold My Flower",
     title: "Hold My Flower - Content Powerhouse",
-    description: "We sell accountability, authority, and execution. Professional video editing and content repurposing that delivers results.",
+    description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X. We build accountability, authority, and EXECUTION.",
     images: [
       {
-        url: "/og-image.png", // Create this 1200x630px image
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Hold My Flower - Content Powerhouse",
@@ -60,9 +39,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Hold My Flower - Content Powerhouse",
-    description: "We sell accountability, authority, and execution. Professional video editing and content repurposing that delivers results.",
+    description: "Transform your content into viral shorts for TikTok, Instagram, LinkedIn, and X.",
     images: ["/og-image.png"],
-    // Add your Twitter handle when ready
+    creator: "@holdmyflower",
   },
   robots: {
     index: true,
@@ -76,10 +55,12 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-verification-code", // Add your Google Search Console verification
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
+    google: "your-google-verification-code", // Add your actual verification code
   },
+  alternates: {
+    canonical: "https://holdmyflower.com",
+  },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -89,11 +70,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
-        <meta name="theme-color" content="#000000" />
-      </head>
       <body
         className={`${manrope.className}  antialiased`}
       >

@@ -7,7 +7,7 @@ import { organizationSchema, serviceSchema, webPageSchema } from '@/lib/schema'
 const page = () => {
   return (
     <>
-      {/* Structured Data for SEO & AI Search */}
+      {/* Structured Data for SEO & GEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
@@ -22,25 +22,25 @@ const page = () => {
       />
       
       <main className="w-full bg-black">
-    <div className='w-full relative h-[100dvh]'>
-        {/* icon part*/}
-        <div className="fixed top-0 left-0 z-30 p-4 mix-blend-difference">
-          <Image src="/flowerboom.svg" alt="Hold My Flower Logo" width={44} height={44} style={{ mixBlendMode: 'difference' }} />
+        <div className='w-full relative h-[100dvh]'>
+            {/* icon part*/}
+            <div className="fixed top-0 left-0 z-30 p-4 mix-blend-difference">
+              <Image src="/flowerboom.svg" alt="FlowerBoom Logo" width={44} height={44} style={{ mixBlendMode: 'difference' }} />
+            </div>
+
+            {/* main content */}
+        <div className="flex flex-col-reverse lg:flex-row w-full h-full">
+         
+            {/* left part - FIXED */}
+         <LandingLeft />
+
+          {/* right part - SCROLLABLE */}
+          <LandingRight />
         </div>
+        </div>
+          {/* <OurProcess /> */}
 
-        {/* main content */}
-    <div className="flex flex-col-reverse lg:flex-row w-full h-full">
-     
-        {/* left part - FIXED */}
-     <LandingLeft />
-
-      {/* right part - SCROLLABLE */}
-      <LandingRight />
-    </div>
-    </div>
-      {/* <OurProcess /> */}
-
-    </main>
+      </main>
     </>
   )
 }

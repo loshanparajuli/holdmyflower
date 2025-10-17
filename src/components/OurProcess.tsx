@@ -73,15 +73,13 @@ few revisions here and there<br/>
           
           <div className="flex justify-start">
             <video
+              src="/give.mp4"
               autoPlay
               loop
               muted
               playsInline
               className="h-56 w-full max-w-xl rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-72 lg:h-96"
-            >
-              <source src="/give.mp4" type="video/mp4" />
-              Your browser does not support the video tag. Sad, moye moye
-            </video>
+            />
           </div>
         </div>
       ),
