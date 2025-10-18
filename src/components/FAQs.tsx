@@ -21,12 +21,12 @@ const defaultFaqs: FaqItem[] = [
       "About 64% (<a href=\"https://cs.stanford.edu/~diyiy/docs/chi20_seering.pdf\" rel=\"noopener noreferrer\" style=\"color:#2563eb;text-decoration:underline;\">stanford study</a>)of people leave a video merely at 0:10. We make sure that doesn't happen with your content. We'll repurpose your existing content to go parallelly on TikTok, Instagram, LinkedIn, and X. We ensure it follows the best hook, crazy retention, and enough reasons to not quit watching. <strong> We sell accountability, authority, and the EXECUTION.</strong>",
   },
   {
-    question: "Cost of service and deliverables",
+    question: "cost of service and deliverables",
     answer:
-  "Deliverables will be ready in about 3–5 days depending on the scope and urgency. We’re always open for forehead-async communication for time-sensitive projects. BTW, urgent projects don’t add up extra cost because we understand not every day is an urgent day. Regarding pricing, it’s simple and straightforward, <a href=\"https://flowerboom.notion.site/price\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:#2563eb;text-decoration:underline;\">check here</a>. Don’t worry, we explicitly write this in our SLAs.",
+  "Deliverables will be ready in about 3–5 days depending on the scope and urgency. We’re always open for forehead-async communication for time-sensitive projects. BTW, urgent projects don’t add up extra cost because we understand not every day is an urgent day. Regarding pricing, it’s simple and straightforward, <a href=\"https://holdmyflower.notion.site/creatorprice\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:#2563eb;text-decoration:underline;\">check here</a>. Don’t worry, we explicitly write this in our SLAs.",
   },
   {
-    question: "Wait, so much drama. What are SLAs?",
+    question: "wait, so much drama. What are SLAs?",
     answer:
       "SLA stands for Service Level Agreement. It's a contract between a service provider and a client that outlines the expected level of service — including response times, resolution times, and other performance metrics.",
   },

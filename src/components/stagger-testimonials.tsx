@@ -19,18 +19,19 @@ const testimonials = [
     by: "Aasha, Advisor at Pocket Capital",
     imgSrc: "https://images.unsplash.com/photo-1715741099399-8ba54c59b046?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1287"
   },
-  {
+   {
     tempId: 2,
-    testimonial: "No bullshit, 10/10 execution. P.S. stop texting me after dinner",
-    by: "Shub, devOps. at hashbang",
-    imgSrc: "https://images.unsplash.com/photo-1655459936211-3acceea7129d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2670"
-  },
-  {
-    tempId: 3,
     testimonial: "True vibe, real chemistry, outstanding team dynamics and crazy execution",
     by: "Xi Lyang, Strategist at HLS Studio",
     imgSrc: "https://images.unsplash.com/photo-1544168190-79c17527004f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1288"
   },
+  {
+    tempId: 3,
+    testimonial: "No bullshit, 10/10 execution. P.S. stop texting me after dinner",
+    by: "Shub, devOps. at hashbang",
+    imgSrc: "https://images.unsplash.com/photo-1655459936211-3acceea7129d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2670"
+  },
+
   {
     tempId: 4,
     testimonial: "i trust them with every cell of my body",
